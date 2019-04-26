@@ -4,6 +4,7 @@ import SearchBar from './searchbar.js';
 import Gif from './gif.js'
 import Giflist from './giflist.js'
 import giphy from 'giphy-api'
+import './App.scss';
 
 class App extends Component {
   constructor(props) {
