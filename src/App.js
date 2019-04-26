@@ -1,12 +1,12 @@
+
 import React, { Component } from 'react';
-import SearchBar from './searchbar.js';
-import Gif from './gif.js'
-import Giflist from './giflist.js'
+import SearchBar from './searchbar.jsx';
+import Gif from './gif.jsx'
+import Giflist from './giflist.jsx'
 import giphy from 'giphy-api'
-import './App.scss';
 
 class App extends Component {
-    constructor(props) {
+  constructor(props) {
     super(props);
 
     this.state = {
@@ -24,9 +24,7 @@ class App extends Component {
   }
 
 
-
-
-    search = (query) => {
+  search = (query) => {
     giphy('5m8SxNykexIdWD04TD5x6AwgY5WxlSoc').search({
         q: query,
         rating: 'g',
@@ -37,8 +35,6 @@ class App extends Component {
         })
       });
     }
-
-
 
   render() {
     return (
