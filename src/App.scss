@@ -22,11 +22,6 @@ body {
   width: 100vw;
 }
 
-.wrapper {
-  position: relative;
-  display: inline-block;
-}
-
 #root > div {
   height: 100vh;
 
@@ -124,7 +119,11 @@ body {
 
   .gif-list {
     column-count: 2;
+    // -webkit-column-count: 2;
+    // -moz-column-count: 2;
     column-gap: 5px;
+    //  -webkit-column-gap: 5px;
+    // -moz-column-gap: 5px;
     padding: 5px;
 
     .gif {

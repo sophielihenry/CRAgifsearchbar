@@ -5,7 +5,7 @@ class Gif extends Component {
       const src = `https://media1.giphy.com/media/${this.props.id}/giphy.gif`
 
     return (
-      <div className="wrapper">
+      <div>
         <img src={src}
              alt=""
              className="gif"
