@@ -1,3 +1,11 @@
+README 
+
+This app was built using Create React App that calls giphy API. Users can search for, delete and select gifs.
+
+http://kensaku-gif.herokuapp.com
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
